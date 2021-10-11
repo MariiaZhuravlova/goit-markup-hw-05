@@ -845,11 +845,15 @@ color: var(--logo-text-white);
     width: 30px;
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
     
     display: flex;
     align-items: center;
     justify-content: center;
 
+}
+.close-modal:hover{
+    background-color: red;
 }
 .icon-close{
     width: 18px;
