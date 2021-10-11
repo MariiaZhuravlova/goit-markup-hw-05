@@ -855,6 +855,9 @@ color: var(--logo-text-white);
 .close-modal:hover{
     background-color: red;
 }
+.close-modal:hover .icon-close{
+    fill: white;
+}
 .icon-close{
     width: 18px;
     height: 18px;
